@@ -50,7 +50,7 @@ describe('calculator', function () {
   it('Subtraction check 0', function() {
     calculator.previousTotal = 4;
     calculator.subtract(0);
-    assert.equal(calculator.runningTotal, 0);
+    assert.equal(calculator.runningTotal, 4);
   })
 
   it('should be able to multiply', function() {
